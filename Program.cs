@@ -29,7 +29,6 @@ namespace L21_largestElement
                     if (mainMatrix[i, j] > largestNumber)
                         largestNumber = mainMatrix[i, j];
                 }
-
                 Console.WriteLine();
             }
             Console.WriteLine("\nПолученная матрица:");
@@ -43,10 +42,8 @@ namespace L21_largestElement
 
                     Console.Write(mainMatrix[i, j] + " ");
                 }
-
                 Console.WriteLine();
             }
-
             Console.WriteLine($"\nНаибольший элемент: {largestNumber}");
         }
     }
